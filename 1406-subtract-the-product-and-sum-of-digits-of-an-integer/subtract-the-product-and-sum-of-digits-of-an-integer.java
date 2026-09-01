@@ -7,7 +7,7 @@ class Solution {
             sum = sum + digit;
             product = product * digit;
             n = n/10;
-        }int diff = product - sum;
-        return (diff);
+        }return product - sum;
+        
     }
 }
